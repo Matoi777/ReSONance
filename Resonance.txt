@@ -35139,19 +35139,19 @@ Escape Timer: %*]]
 		end)
 
 		local hour = tonumber(os.date("%H")) or 12
-		local greeting = "Night"
+		local greeting = "สวัสดีตอนค่ำ"
 		if hour >= 5 and hour < 12 then
-			greeting = "Morning"
+			greeting = "สวัสดีตอนเช้า"
 		elseif hour >= 12 and hour < 17 then
-			greeting = "Afternoon"
+			greeting = "สวัสดีตอนบ่าย"
 		elseif hour >= 17 and hour < 21 then
-			greeting = "Evening"
+			greeting = "สวัสดีตอนเย็น"
 		end
 		Greetings:AddLabel({ Text = ("%s, <b>%s</b> "):format(greeting, localPlayer.DisplayName), DoesWrap = true })
 		Greetings:AddDivider()
-		Greetings:AddLabel({ Text = "Welcome to <b><font color=\"#fffb00\">Resonance crack</font></b>", DoesWrap = true })
-		Greetings:AddLabel({ Text = "cracked by: InLoad and <font color=\"#baa4ff\">wraith.dev</font>", DoesWrap = true })
-		Greetings:AddLabel({ Text = "dont stop using cracks! ts crack is so cool", DoesWrap = true })
+		Greetings:AddLabel({ Text = "ยินดีต้อนรับสู่ <b><font color=\"#fffb00\">พระจันทร์ปล่อย</font></b>", DoesWrap = true })
+		Greetings:AddLabel({ Text = "ปล่อยโดย: ลูกมะตอย ลองกอง  <font color=\"#baa4ff\">skibidi toilet</font>", DoesWrap = true })
+		Greetings:AddLabel({ Text = "ใช้ของปล่อยไม่ได้แปลว่ากากใช้ให้เป็นก็พอ", DoesWrap = true })
 	end
 
 		do
